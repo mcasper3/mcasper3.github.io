@@ -1,0 +1,29 @@
+body {
+	padding-bottom: 0px;
+	margin: 0px;
+}
+body:after {
+	content: "";
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url(background.jpg);
+	background-position: 40% 100%;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	z-index: 1;
+}
+.content {
+	height: 800px;
+	width:100%;
+	position: relative;
+	padding-left: 15px;
+	z-index: 10;
+	margin-top: 47%;
+	background-color: #FFFFFF;
+	background-size: auto, 300px 100%, 109px 100%;
+	background-repeat: repeat-x;
+}
