@@ -1,0 +1,83 @@
+$accent: #00B8D4;
+$main-tab-color: white;
+
+body {
+	margin: 0;
+	background-image: url('background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	margin-bottom: 20px;
+
+    #header {
+	    width: 100%;
+	    float: left;
+	    background: black;
+	    padding-top: 20px;
+	    padding-bottom: 20px;
+        margin-bottom: 20px;
+
+        .links {
+            float:right;
+
+            .image-link {
+                text-decoration: none;
+            }
+        }
+
+    
+        .firstTab {
+	        border-left: 1px solid $main-tab-color;
+        }
+
+        .tabs {
+	        width: 80%;
+	        margin-left: auto;
+	        margin-right: auto;
+
+            .navigation {
+	            text-decoration: none;
+	            color: $main-tab-color;
+	            padding: 4px;
+	            border-right-color: $main-tab-color;
+	            border-right-width: 1px;
+	            border-right-style: solid;
+
+	            &:hover {
+		            color: $accent;
+	            }
+            }
+        }
+    }
+
+    #content {
+	    clear: both;
+	    margin-top: 10px;
+	    padding: 10px;
+	    padding-bottom: 20px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    width: 70%;
+	    background: black;
+	    opacity: 0.75;
+	    color: black;
+        border-radius: 10px;
+
+	    #content-inner {
+		    background: white;
+		    border: 1px solid white;
+		    border-radius: 5px;
+		    margin: 10px;
+		    opacity: 0.9;
+		    padding-left: 10px;
+		    padding-right: 10px;
+
+		    a {
+			    text-decoration: none;
+
+			    color:$accent;
+		    }
+	    }
+    }
+}

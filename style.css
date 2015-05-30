@@ -1,0 +1,59 @@
+﻿body {
+  margin: 0;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin-bottom: 20px; }
+  body #header {
+    width: 100%;
+    float: left;
+    background: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px; }
+    body #header .links {
+      float: right; }
+      body #header .links .image-link {
+        text-decoration: none; }
+    body #header .firstTab {
+      border-left: 1px solid white; }
+    body #header .tabs {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto; }
+      body #header .tabs .navigation {
+        text-decoration: none;
+        color: white;
+        padding: 4px;
+        border-right-color: white;
+        border-right-width: 1px;
+        border-right-style: solid; }
+        body #header .tabs .navigation:hover {
+          color: #00B8D4; }
+  body #content {
+    clear: both;
+    margin-top: 10px;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background: black;
+    opacity: 0.75;
+    color: black;
+    border-radius: 10px; }
+    body #content #content-inner {
+      background: white;
+      border: 1px solid white;
+      border-radius: 5px;
+      margin: 10px;
+      opacity: 0.9;
+      padding-left: 10px;
+      padding-right: 10px; }
+      body #content #content-inner a {
+        text-decoration: none;
+        color: #00B8D4; }
+
+/*# sourceMappingURL=style.css.map */
