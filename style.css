@@ -51,7 +51,8 @@
       margin: 10px;
       opacity: 0.9;
       padding-left: 10px;
-      padding-right: 10px; }
+      padding-right: 10px;
+          float:left; }
       body #content #content-inner a {
         text-decoration: none;
         color: #00B8D4; }

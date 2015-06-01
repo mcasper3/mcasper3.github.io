@@ -25,7 +25,6 @@ body {
                 text-decoration: none;
             }
         }
-
     
         .firstTab {
 	        border-left: 1px solid $main-tab-color;
@@ -77,6 +76,15 @@ body {
 			    text-decoration: none;
 
 			    color:$accent;
+		    }
+
+		    .content-body {
+		    	width: 85%;
+		    }
+
+		    .side-menu {
+		    	border-left: 2px solid black;
+		    	width: 15%;
 		    }
 	    }
     }
