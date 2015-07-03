@@ -9,10 +9,12 @@
   body #header {
     width: 100%;
     float: left;
+    position: fixed;
     background: black;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-bottom: 20px; }
+    top: 0;
+    z-index: 30; }
     body #header .links {
       float: right; }
       body #header .links .image-link {
@@ -34,16 +36,19 @@
           color: #00B8D4; }
   body #content {
     clear: both;
-    margin-top: 10px;
+    position: relative;
+    z-index: 1;
     padding: 10px;
     padding-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 40%;
     background: black;
     opacity: 0.75;
     color: black;
-    border-radius: 10px; }
+    border-radius: 10px;
+    margin-top: 90px;
+    font-size: larger; }
     body #content #content-inner {
       background: white;
       border: 1px solid white;
