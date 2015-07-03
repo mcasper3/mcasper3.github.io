@@ -52,7 +52,7 @@ body {
         }
     }
 
-    #content {
+    .content {
 	    clear: both;
         position:relative;
         z-index: 1;
@@ -61,14 +61,16 @@ body {
 	    margin-left: auto;
 	    margin-right: auto;
 	    width: 40%;
+        height: 100%;
 	    background: black;
 	    opacity: 0.75;
 	    color: black;
         border-radius: 10px;
         margin-top: 90px;
-        font-size:larger;
+        font-size: larger;
+    }
 
-	    #content-inner {
+    #content-inner {
 		    background: white;
 		    border: 1px solid white;
 		    border-radius: 5px;
@@ -83,5 +85,4 @@ body {
 			    color:$accent;
 		    }
 	    }
-    }
 }
