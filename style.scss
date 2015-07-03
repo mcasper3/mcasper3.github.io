@@ -71,27 +71,32 @@ body {
     }
 
     #content-inner {
-		    background: white;
-		    border: 1px solid white;
-		    border-radius: 5px;
-		    margin: 10px;
-		    opacity: 0.9;
-		    padding-left: 10px;
-		    padding-right: 10px;
+		background: white;
+		border: 1px solid white;
+		border-radius: 5px;
+		margin: 10px;
+		opacity: 0.9;
+		padding-left: 10px;
+		padding-right: 10px;
 
-		    a {
-			    text-decoration: none;
+		a {
+			text-decoration: none;
 
-			    color:$accent;
-		    }
+			color:$accent;
+		}
 
-		    .content-body {
-		    	width: 85%;
-		    }
+		.content-body {
+		    width: 85%;
+		}
 
-		    .side-menu {
-		    	border-left: 2px solid black;
-		    	width: 15%;
-		    }
-	    }
+		.side-menu {
+		    border-left: 2px solid black;
+		    width: 15%;
+		}
+	}
+
+    #copyright {
+        margin-top: 10px;
+        margin-left: 45%;
+    }
 }

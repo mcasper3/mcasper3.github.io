@@ -61,5 +61,13 @@
     body #content-inner a {
       text-decoration: none;
       color: #00B8D4; }
+    body #content-inner .content-body {
+      width: 85%; }
+    body #content-inner .side-menu {
+      border-left: 2px solid black;
+      width: 15%; }
+  body #copyright {
+    margin-top: 10px;
+    margin-left: 45%; }
 
 /*# sourceMappingURL=style.css.map */
