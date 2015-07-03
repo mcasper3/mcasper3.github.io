@@ -1,2 +1,2 @@
 # mcasper3.github.io
-Personal Website
+This website is a side project I have recently started working on. The goal for this website is to have a personal site to experiment with as well as post updates of what other projects I am working on. I hope to have a list of android projects I am working on up on the site within the next few weeks. I would also like to begin using this website for a set of Android tutorials aimed at beginners that provide a more realistic use of aspects of android rather than the most basic implementation of features that other tutorials currenlty display.
