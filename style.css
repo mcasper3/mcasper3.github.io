@@ -21,6 +21,8 @@
         text-decoration: none; }
     body #header .firstTab {
       border-left: 1px solid white; }
+    body #header #currentTab {
+      color: #00B8D4; }
     body #header .tabs {
       width: 80%;
       margin-left: auto;
