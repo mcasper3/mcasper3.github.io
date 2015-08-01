@@ -6,4 +6,6 @@
         .mouseout(function () {
             $(this).attr("src", "GitHub-Mark.png");
         });
+
+    $("#headerContent").load("SiteFeatures/header.html")
 });
