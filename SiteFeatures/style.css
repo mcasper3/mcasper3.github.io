@@ -1,0 +1,47 @@
+﻿#header {
+  width: 100%;
+  float: left;
+  position: fixed;
+  background: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  top: 0;
+  z-index: 30;
+}
+
+#header .links {
+  float: right;
+}
+
+#header .links .image-link {
+  text-decoration: none;
+}
+
+#header .firstTab {
+  border-left: 1px solid white;
+}
+
+#header #currentTab {
+  color: #00B8D4;
+}
+
+#header .tabs {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header .tabs .navigation {
+  text-decoration: none;
+  color: white;
+  padding: 4px;
+  border-right-color: white;
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+
+#header .tabs .navigation:hover {
+  color: #00B8D4;
+}
+
+/*# sourceMappingURL=style.css.map */
