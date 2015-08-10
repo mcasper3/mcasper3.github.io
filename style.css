@@ -5,37 +5,8 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  margin-bottom: 20px; }
-  body #header {
-    width: 100%;
-    float: left;
-    position: fixed;
-    background: black;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    top: 0;
-    z-index: 30; }
-    body #header .links {
-      float: right; }
-      body #header .links .image-link {
-        text-decoration: none; }
-    body #header .firstTab {
-      border-left: 1px solid white; }
-    body #header #currentTab {
-      color: #00B8D4; }
-    body #header .tabs {
-      width: 80%;
-      margin-left: auto;
-      margin-right: auto; }
-      body #header .tabs .navigation {
-        text-decoration: none;
-        color: white;
-        padding: 4px;
-        border-right-color: white;
-        border-right-width: 1px;
-        border-right-style: solid; }
-        body #header .tabs .navigation:hover {
-          color: #00B8D4; }
+  margin-bottom: 20px;
+  height: 100%; }
   body .content {
     clear: both;
     position: relative;
